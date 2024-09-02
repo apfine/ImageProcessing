@@ -1,3 +1,4 @@
+//this is a ppm file generation program . The results are attached in the name "resultPPMImage1"
 #include <cstdio>
 #include <cstdint>
 #include <fstream>
@@ -6,9 +7,6 @@
 using namespace  std;
 
 void image(){
-    
-}
-int main(){
     ofstream image;
     image.open("Image.ppm");
 
@@ -22,6 +20,9 @@ int main(){
             }
         }
     }
-    image.close();
+    image.close();  
+}
+int main(){
+image();
     
 }
